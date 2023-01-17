@@ -1,0 +1,21 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    name: challenge
+    generate-unique-name: false
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+run2biz-challenge:
+  jwt-secret-key: 576D5A7134743777397A24432646294A404E635266556A586E3272357538782F

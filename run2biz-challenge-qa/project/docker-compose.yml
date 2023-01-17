@@ -1,0 +1,10 @@
+version: "3"
+services:
+  backend:
+    build: run2biz-challenge-api
+    ports:
+      - "8080:8080"
+  frontend:
+    build: run2biz-challenge-front
+    ports:
+      - "4200:4200"
